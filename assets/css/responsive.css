@@ -1,0 +1,18 @@
+@media (max-width: 1280px) {
+  .main-title {
+    font-size: 28px;
+  }
+}
+@media (max-width: 992px) {
+  .sub-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-title {
+    font-size: 18px;
+  }
+  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text .item .text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}
