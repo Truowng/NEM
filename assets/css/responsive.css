@@ -65,6 +65,9 @@ main {
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover {
   background-color: #000;
 }
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .recruitment-content-item-information .button {
+  color: #000;
+}
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover path,
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover rect {
   fill: #fff;
@@ -345,18 +348,12 @@ main {
     font-size: 20px;
     line-height: 30px;
   }
-  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item {
-    gap: 26px;
-  }
   .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-title {
     font-size: 18px;
   }
   .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text .item .text {
     font-size: 14px;
     line-height: 21px;
-  }
-  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list:hover {
-    color: #000;
   }
 }
 @media (max-width: 768px) {
