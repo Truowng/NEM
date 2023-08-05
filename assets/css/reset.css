@@ -167,9 +167,6 @@ main {
   align-items: center;
   gap: 6px;
 }
-#header .container .header-nav-mobile {
-  display: none;
-}
 
 #footer {
   margin-top: 144px;

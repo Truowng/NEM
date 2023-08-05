@@ -170,6 +170,10 @@ main {
 #header .container .header-nav-mobile {
   display: none;
 }
+#header .container .close-button svg {
+  height: 24px;
+  width: 24px;
+}
 
 #footer {
   margin-top: 144px;
@@ -286,17 +290,14 @@ main {
   }
 }
 @media (max-width: 992px) {
-  #header .header-nav-mobile {
-    position: fixed;
-    top: 0;
-    left: 0;
+  #header .container .header-nav-mobile {
     z-index: 10;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 45px;
+    display: block;
+    text-align: right;
   }
-  #header .header-nav {
+  #header .container .header-nav {
     display: none;
   }
   .sub-title {
