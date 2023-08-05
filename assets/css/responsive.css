@@ -42,25 +42,14 @@ main {
 .recruitment-content-wrapper .recruitment-content-container {
   margin-top: 100px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list {
   margin-top: 47px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .col-md-6,
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .col-12 {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .col-md-6,
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .col-12 {
   margin-bottom: 27px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item {
   position: relative;
   border-radius: 5px;
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
@@ -71,61 +60,26 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover {
   background-color: #000;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover
-  .button {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .button {
   border-color: #fff;
   background: #fff;
   color: #000;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover
-  .button:hover {
-  background: #000;
-  color: #fff;
-}
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover
-  path,
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover
-  rect {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover path,
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover rect {
   fill: #fff;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover
-  * {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover * {
   color: #fff;
   transition: all ease 0.5s;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item:hover
-  .tag {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .tag {
   color: #000;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .tag {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .tag {
   font-size: 14px;
   font-weight: 500;
   line-height: unset;
@@ -138,11 +92,7 @@ main {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .tag::after {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .tag::after {
   content: "";
   position: absolute;
   bottom: -8px;
@@ -152,63 +102,32 @@ main {
   border-left: 4px solid #e1ca00;
   border-top: 4px solid #e1ca00;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .recruitment-content-item-title {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-title {
   font-size: 20px;
   line-height: 26px;
   font-weight: 400;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .recruitment-content-item-information {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .recruitment-content-item-information
-  .recruitment-content-item-information-text {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .recruitment-content-item-information
-  .recruitment-content-item-information-text
-  .item {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text .item {
   display: flex;
   align-items: center;
   gap: 6px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .recruitment-content-item-information
-  .recruitment-content-item-information-text
-  .item
-  .text {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text .item .text {
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
 }
-.recruitment-content-wrapper
-  .recruitment-content-container
-  .recruitment-content-list
-  .recruitment-content-item
-  .recruitment-content-item-information
-  .button {
+.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .button {
   padding: 3px 20px;
 }
 
@@ -372,21 +291,10 @@ main {
     font-size: 20px;
     line-height: 30px;
   }
-  .recruitment-content-wrapper
-    .recruitment-content-container
-    .recruitment-content-list
-    .recruitment-content-item
-    .recruitment-content-item-title {
+  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-title {
     font-size: 18px;
   }
-  .recruitment-content-wrapper
-    .recruitment-content-container
-    .recruitment-content-list
-    .recruitment-content-item
-    .recruitment-content-item-information
-    .recruitment-content-item-information-text
-    .item
-    .text {
+  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text .item .text {
     font-size: 14px;
     line-height: 21px;
   }

@@ -68,10 +68,6 @@ main {
   background: #fff;
   color: #000;
 }
-.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .button:hover {
-  background: #000;
-  color: #fff;
-}
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover path,
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover rect {
   fill: #fff;

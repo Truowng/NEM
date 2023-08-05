@@ -66,6 +66,9 @@ main {
 
   border-radius: $border-radius-md;
   border: 1px solid $black;
+
+  background: $white;
+  color: $black;
 }
 
 .recruitment-content-wrapper {
@@ -100,17 +103,6 @@ main {
 
         &:hover {
           background-color: $black;
-
-          .button {
-            border-color: $white;
-            background: $white;
-            color: $black;
-
-            &:hover {
-              background: $black;
-              color: $white;
-            }
-          }
 
           path,
           rect {

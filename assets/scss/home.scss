@@ -319,6 +319,21 @@
     .swiper-button-next {
       right: 14.7%;
     }
+
+    .swiper-pagination-bullet {
+      width: 61px;
+      height: 5px;
+
+      transform: skewX(-30deg);
+
+      background-color: rgba($color: $white, $alpha: 0.5);
+
+      border-radius: 0px;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: $white;
+    }
   }
 }
 

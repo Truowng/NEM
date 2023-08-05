@@ -34,6 +34,8 @@ main {
   padding: 3px 20px;
   border-radius: 5px;
   border: 1px solid #000;
+  background: #fff;
+  color: #000;
 }
 
 .recruitment-content-wrapper {
@@ -62,15 +64,6 @@ main {
 }
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover {
   background-color: #000;
-}
-.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .button {
-  border-color: #fff;
-  background: #fff;
-  color: #000;
-}
-.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .button:hover {
-  background: #000;
-  color: #fff;
 }
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover path,
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover rect {
@@ -497,6 +490,16 @@ main {
 }
 #home-carousel .swiper .swiper-button-next {
   right: 14.7%;
+}
+#home-carousel .swiper .swiper-pagination-bullet {
+  width: 61px;
+  height: 5px;
+  transform: skewX(-30deg);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px;
+}
+#home-carousel .swiper .swiper-pagination-bullet-active {
+  background-color: #fff;
 }
 
 #home-recruitment {
