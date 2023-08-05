@@ -34,6 +34,8 @@ main {
   padding: 3px 20px;
   border-radius: 5px;
   border: 1px solid #000;
+  background: #fff;
+  color: #000;
 }
 
 .recruitment-content-wrapper {
@@ -62,11 +64,6 @@ main {
 }
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover {
   background-color: #000;
-}
-.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .button {
-  border-color: #fff;
-  background: #fff;
-  color: #000;
 }
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover path,
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover rect {
@@ -207,7 +204,6 @@ main {
 }
 #footer .top .cta-container .button {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   margin-top: 30px;
   padding: 10px 50px;
@@ -273,6 +269,22 @@ main {
     font-size: 28px;
   }
 }
+@media (max-width: 1024px) {
+  .main-rte .rte .rte-recruiment_left {
+    width: calc(100% - 315px);
+  }
+  .main-rte .rte .rte-recruiment_right {
+    flex: 0 0 315px;
+    max-width: 315px;
+  }
+  .main-rte .rte .rte-recruiment_right .offer-job {
+    margin-top: 0;
+  }
+  .recruiment-form form .form-mail-phone {
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
 @media (max-width: 992px) {
   #header .header-nav-mobile {
     position: fixed;
@@ -335,9 +347,23 @@ main {
     margin: 20px 0 0;
     max-width: 100%;
   }
+  .main-rte .rte .rte-recruiment_left {
+    width: 100%;
+  }
+  .main-rte .rte .rte-recruiment_right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 @media (max-width: 576px) {
   #home-about {
     margin-top: 50px;
+  }
+  .recruiment-form {
+    margin-bottom: 70px;
+  }
+  .recruiment-form form .form-mail-phone {
+    flex-wrap: wrap;
+    gap: 0;
   }
 }

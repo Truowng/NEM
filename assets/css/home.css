@@ -204,7 +204,6 @@ main {
 }
 #footer .top .cta-container .button {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   margin-top: 30px;
   padding: 10px 50px;
@@ -392,7 +391,6 @@ main {
 }
 #home-advantage .main-title {
   margin: 0 auto;
-  width: -moz-fit-content;
   width: fit-content;
 }
 #home-advantage .advantage-content {
@@ -506,7 +504,6 @@ main {
   margin-top: 104px;
 }
 #home-recruitment .title-wrapper .main-title {
-  width: -moz-fit-content;
   width: fit-content;
   margin: auto;
   margin-bottom: 24px;
@@ -547,8 +544,7 @@ main {
   }
   #home-banner .banner-img img {
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   #home-about .container::after {
     content: unset;

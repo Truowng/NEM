@@ -5,6 +5,30 @@
     font-size: 28px;
   }
 }
+@media(max-width:1024px){
+  .main-rte {
+    .rte {
+      .rte-recruiment_left {
+        width: calc(100% - 315px);
+     }
+     .rte-recruiment_right {
+      flex: 0 0 315px;
+      max-width: 315px;
+      .offer-job {
+        margin-top: 0;
+      }
+     }
+    }
+  } 
+  .recruiment-form {
+    form {
+      .form-mail-phone {
+        flex-wrap: wrap;
+        gap: 0;
+      }
+    }
+  }
+}
 @media (max-width: 992px) {
   #header {
     .header-nav-mobile {
@@ -91,6 +115,19 @@
       }
     }
   }
+
+   //RECRUIMENT
+  .main-rte {
+    .rte {
+      .rte-recruiment_left {
+        width: 100%;
+     }
+     .rte-recruiment_right {
+      flex: 0 0 100%;
+      max-width: 100%;
+     }
+    }
+  } 
 }
 @media (max-width: 576px) {
   // START ABOUT
@@ -98,4 +135,15 @@
     margin-top: 50px;
   }
   // END ABOUT
+
+  //RECRUIMENT
+  .recruiment-form {
+    margin-bottom: 70px;
+    form {
+      .form-mail-phone {
+        flex-wrap: wrap;
+        gap: 0;
+      }
+    }
+  } 
 }

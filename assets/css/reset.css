@@ -34,6 +34,8 @@ main {
   padding: 3px 20px;
   border-radius: 5px;
   border: 1px solid #000;
+  background: #fff;
+  color: #000;
 }
 
 .recruitment-content-wrapper {
@@ -62,11 +64,6 @@ main {
 }
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover {
   background-color: #000;
-}
-.recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover .button {
-  border-color: #fff;
-  background: #fff;
-  color: #000;
 }
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover path,
 .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item:hover rect {
@@ -207,7 +204,6 @@ main {
 }
 #footer .top .cta-container .button {
   display: block;
-  width: -moz-fit-content;
   width: fit-content;
   margin-top: 30px;
   padding: 10px 50px;
