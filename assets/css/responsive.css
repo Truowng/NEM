@@ -175,6 +175,47 @@ main {
   width: 24px;
 }
 
+.nav-mobile {
+  position: absolute;
+  right: 0;
+  top: 69px;
+  z-index: 20;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100vw;
+  height: calc(100vh - 69px);
+}
+.nav-mobile .nav-mobile_show {
+  background: #fff;
+  height: 100%;
+  position: relative;
+  width: 80%;
+  max-width: 300px;
+  flex: 0 0 80%;
+  padding: 20px;
+}
+.nav-mobile .nav-mobile_fade {
+  background: #000;
+  width: 100%;
+  opacity: 0.5;
+  position: relative;
+}
+.nav-mobile .nav-mobile_main {
+  flex-wrap: wrap;
+}
+.nav-mobile .nav-mobile_main a {
+  display: block;
+  padding: 20px 0;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.nav-mobile .nav-mobile_hotline {
+  padding: 20px 0;
+}
+.nav-mobile .nav-mobile_hotline svg {
+  vertical-align: middle;
+}
+
 #footer {
   margin-top: 144px;
 }
@@ -304,12 +345,18 @@ main {
     font-size: 20px;
     line-height: 30px;
   }
+  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item {
+    gap: 26px;
+  }
   .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-title {
     font-size: 18px;
   }
   .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list .recruitment-content-item .recruitment-content-item-information .recruitment-content-item-information-text .item .text {
     font-size: 14px;
     line-height: 21px;
+  }
+  .recruitment-content-wrapper .recruitment-content-container .recruitment-content-list:hover {
+    color: #000;
   }
 }
 @media (max-width: 768px) {

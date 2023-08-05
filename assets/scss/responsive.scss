@@ -53,6 +53,7 @@
     .recruitment-content-container {
       .recruitment-content-list {
         .recruitment-content-item {
+          gap: 26px;
           .recruitment-content-item-title {
             font-size: 18px;
           }
@@ -64,6 +65,9 @@
             font-size: 14px;
             line-height: 21px;
           }
+        }
+        &:hover {
+          color: #000;
         }
       }
     }
