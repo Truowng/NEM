@@ -368,6 +368,41 @@
 }
 // END RECRUITMENT
 
+// START CLIENT
+#home-client {
+  margin-top: 100px;
+
+  .main-title {
+    text-align: center;
+  }
+
+  .client-slide {
+    height: 100%;
+    margin-top: 50px;
+
+    .client-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 100%;
+      height: 100%;
+
+      padding: 0 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .swiper-wrapper {
+    display: flex;
+    align-items: center;
+  }
+}
+
+// END CLIENT
+
 // START RESPONSIVE
 @media (max-width: 1280px) {
   // START ABOUT
