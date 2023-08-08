@@ -253,6 +253,7 @@ main {
 }
 #footer .top .cta-container .button {
   display: block;
+  width: -moz-fit-content;
   width: fit-content;
   margin-top: 30px;
   padding: 10px 50px;
@@ -440,6 +441,7 @@ main {
 }
 #home-advantage .main-title {
   margin: 0 auto;
+  width: -moz-fit-content;
   width: fit-content;
 }
 #home-advantage .advantage-content {
@@ -476,10 +478,24 @@ main {
   margin-top: 104px;
 }
 #home-carousel .swiper .swiper-wrapper .swiper-slide-prev {
-  transform: translateX(31%);
+  transform: translateX(55%);
 }
 #home-carousel .swiper .swiper-wrapper .swiper-slide-next {
-  transform: translateX(-31%);
+  transform: translateX(-55%);
+}
+#home-carousel .swiper .swiper-wrapper .swiper-slide-active {
+  position: relative;
+  z-index: 2;
+  transition: all ease 1s;
+}
+#home-carousel .swiper .swiper-wrapper .swiper-slide-active .carousel-item-img {
+  transition: all ease 1s;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+}
+#home-carousel .swiper .swiper-wrapper .swiper-slide-next,
+#home-carousel .swiper .swiper-wrapper .swiper-slide-prev {
+  transition: all ease 3s;
 }
 #home-carousel .swiper .swiper-wrapper .swiper-slide-next .carousel-item-img::after,
 #home-carousel .swiper .swiper-wrapper .swiper-slide-prev .carousel-item-img::after {
@@ -490,11 +506,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all ease 0.75s;
+  transition: all ease 1s;
 }
 #home-carousel .swiper .swiper-wrapper .swiper-slide .carousel-item-img {
-  border-right: 10px solid #fff;
-  border-left: 10px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
   max-width: 1320px;
   width: 100%;
   height: 500px;
@@ -515,12 +531,11 @@ main {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  transition: all ease 0.75s;
+  transition: all ease 1s;
 }
 #home-carousel .swiper .swiper-wrapper .swiper-slide .carousel-item-img img {
-  width: 120%;
   transform: skewX(18deg);
-  transition: all ease 0.75s;
+  transition: all ease 1s;
 }
 #home-carousel .swiper .swiper-button-prev::after,
 #home-carousel .swiper .swiper-button-next::after {
@@ -553,6 +568,7 @@ main {
   margin-top: 104px;
 }
 #home-recruitment .title-wrapper .main-title {
+  width: -moz-fit-content;
   width: fit-content;
   margin: auto;
   margin-bottom: 24px;
@@ -593,7 +609,8 @@ main {
   }
   #home-banner .banner-img img {
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   #home-about .container::after {
     content: unset;
